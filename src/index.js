@@ -6,7 +6,7 @@ import App from './App';
 
 // import ReactWelcome from './components/Function';
 
-import Mynew from './Mynew';
+import Mynew from './components/Mynew';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,7 +15,7 @@ root.render(
   <React.StrictMode>
     <div>
          <App/>
-         {/* <Mynew/>  */}
+         
      </div>
   </React.StrictMode>
   
@@ -23,7 +23,7 @@ root.render(
 
 // reportWebVitals();
 // const root = ReactDOM.createRoot(document.getElementById("root"));
-// root.render()
-const root2 = ReactDom.createRoot(document.getElementById("root"));
+// root.render(<App/>)
+// const root2 = ReactDom.createRoot(document.getElementById("root"));
 
-root2.render("<Mysap/>");
+// root2.render("<Mysap/>");
