@@ -13,6 +13,7 @@ import DataFetchThee from './components/hooks/DataFetchThee';
 import DataAxiosThree from './components/hooks/DataAxiosThree';
 import UseEffectFour from './components/hooks/UseEffectFour';
 import AxiosCodeCamp from './components/hooks/AxiosCodeCamp';
+import ContextHook from './components/hooks/ContextHook';
 
 function App() {
   return (
@@ -31,7 +32,8 @@ function App() {
               {/* <DataFetchThee /> */}
             {/* <DataAxiosThree /> */}
             {/* <UseEffectFour />  */}
-            <AxiosCodeCamp />
+            {/* <AxiosCodeCamp /> */}
+            <ContextHook />
 
 
 
